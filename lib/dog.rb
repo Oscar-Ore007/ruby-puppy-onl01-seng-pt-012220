@@ -1,5 +1,5 @@
 # Add your code here
-Class Dog 
+class Dog 
 @@all = [] 
 def initialize(name) 
   @name = name 
@@ -8,7 +8,7 @@ end
 
 def self.all 
   @@all 
- end 
+end 
 
 def self.clear_all 
   @@all = [] 
@@ -16,12 +16,12 @@ end
 
 def self.print_all
   @@all.each do |dog| 
-  puts "#{dog}"
+    puts "#{dog}"
   end 
 end 
 
 def save 
-@@all << self 
+  @@all << self 
 end 
 
 end 
